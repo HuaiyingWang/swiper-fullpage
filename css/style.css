@@ -1,0 +1,15 @@
+.js-fullpage.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.js-fullpage .swiper-wrapper{
+  /* 通过改变animation-timing-function 制作弹性切换效果 */
+  transition: 1s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.2s;
+}
+
+.js-fullpage .swiper-slide {
+
+}

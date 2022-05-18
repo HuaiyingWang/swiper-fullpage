@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <title>Swiper Demo - Fullpage</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="cr-header index container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid wrapper-1400">
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-4 visible-xs">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">選單切換</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                          <img src="images/logo.png">
+                </a>
+              </div>
+              
+            </div>
+          
+            <div class="col-xs-12 col-sm-12">
+              
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <div class="mobile-menu-flex">
+                  <ul class="nav navbar-nav header_link nav_link">
+
+                    <li class="dropdown">
+                      <a href="about.html">
+                        <span></span>
+                        <p>關於我們</p>
+                      </a>
+                    </li>
+
+                    <li class="dropdown">
+                      <a href="pro_list.html">
+                        <span></span>
+                        <p>產品介紹</p>
+                      </a>
+                    </li>
+
+                    <li class="dropdown">
+                      <a href="contact.html">
+                        <span></span>
+                        <p>聯絡我們</p>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                  <div class="hidden-xs">
+                    <a class="navbar-brand" href="index.html">
+                              <img src="images/logo.png">
+                    </a>
+                  </div>
+
+                  <ul class="nav navbar-nav header_link mobile_header_link">
+                    <!-- 下拉選單 -->
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown">
+                        <img src="images/icon-earth.png"> 繁體中文 <img src="images/down-small.png">
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">繁體中文</a></li>
+                        <li><a href="en/index.html">ENGLISH</a></li>
+                        <li class="visible-xs"><a href="index.html">回首頁</a></li>
+                        <li class="visible-xs"><a href="#" target="_blank">Facebook粉絲團</a></li>
+                      </ul>
+                    </li>
+                    <li class="hidden-xs"><a href="index.html"><img src="images/icon-home.png"></a></li>
+                    <li class="hidden-xs"><a href="#" target="_blank"><img src="images/icon-facebook.png"></a></li>
+                  </ul>
+
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Swiper -->
+  <div class="swiper-container js-fullpage">
+    <div class="swiper-wrapper">
+
+      <!-- Banner -->
+      <div class="swiper-slide">
+        <div class="main-banner index">
+          <div class="wrapper">
+            <div class="swiper-container js-banner">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/index-banner.png"></div>
+                <div class="swiper-slide"><img src="images/index-banner.png"></div>
+                <div class="swiper-slide"><img src="images/index-banner.png"></div>
+                <div class="swiper-slide"><img src="images/index-banner.png"></div>
+              </div>
+    
+              <!-- <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div> -->
+            </div>
+          </div>
+        </div>
+      </div><!-- set -->
+
+      <!-- 我們的產品 -->
+      <div class="swiper-slide">
+        <div class="index-outPro">
+          <div class="pro-text-wrap">
+            <div class="pro-title-wrap">
+              <img src="images/index-pro-bigTitle.png">
+            </div>
+    
+            <div class="page-header text-center">
+                <h3>
+                  <p>我們的產品</p>
+                  <small class="hidden-xs"><img src="images/index-pro-subTitle.png"></small>
+                 <small class="visible-xs">“「品質至上」「價格合理」「精益求精」“</small>
+              </h3>
+            </div>
+          </div>
+    
+          <div class="wrapper pro-wrapper"> 
+    
+            <div class="swiper-container js-flex-container">
+              <div class="swiper-wrapper flex-container">
+    
+                <div class="swiper-slide">
+                  <div class="flex-slide flex-bg home" style="background-image: url('images/index-pro-img01.png')">
+                    <a href="pro_detail.html"><div class="flex-title"> <img src="images/index-pro-icon01.png"> <p>飲用水儲水桶</p> </div></a>
+                  </div>
+                </div>
+    
+                <div class="swiper-slide">
+                  <div class="flex-slide flex-bg home" style="background-image: url('images/index-pro-img02.png')">
+                    <a href="pro_detail.html"><div class="flex-title"> <img src="images/index-pro-icon02.png"> <p>熱水儲水桶</p></div></a>
+                  </div>
+                </div>
+    
+                <div class="swiper-slide">
+                  <div class="flex-slide flex-bg home" style="background-image: url('images/index-pro-img03.png')">
+                    <a href="pro_detail.html"><div class="flex-title"> <img src="images/index-pro-icon03.png"> <p>泵浦壓力桶</p></div></a>
+                  </div>
+                </div>
+    
+                <div class="swiper-slide">
+                  <div class="flex-slide flex-bg home" style="background-image: url('images/index-pro-img04.png')">
+                    <a href="pro_detail.html"><div class="flex-title"> <img src="images/index-pro-icon04.png"> <p>水垂吸收桶</p></div></a>
+                  </div>
+                </div>
+    
+                <div class="swiper-slide">
+                  <div class="flex-slide flex-bg home" style="background-image: url('images/index-pro-img05.png')">
+                    <a href="pro_detail.html"><div class="flex-title"> <img src="images/index-pro-icon05.png"> <p>過濾器</p></div></a>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div><!-- set -->
+
+      <!-- Footer -->
+      <div class="swiper-slide">
+        <footer>
+          <div class="wrapper wrapper-1500">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12 col-sm-3">
+                  <h4><img src="images/logo.png"></h4>
+                  <ul class="list-inline footer-link">
+                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="pro_list.html">產品介紹</a></li>
+                    <li><a href="contact.html">聯絡我們</a></li>
+                  </ul>
+                </div>
+    
+                <div class="col-xs-12 col-sm-7">
+                  <ul class="list-inline footer-info">
+                    <li> <p>地址</p> 436 台中市清水區中山路553號</li>
+                    <li> <p>電話</p> 886-4-26220078</li>
+                    <li> <p>傳真</p> 886-4-26226006</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+    
+        <div class="footer-iware">
+          <div class="iware">
+            Designed by:iware <a href="https://www.iware.com.tw/" target="_blank" title='網頁設計公司:馬路科技'><b>台南網頁設計</b></a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <a id="back-to-top" href="javascript:;" class="btn btn-primary back-to-top visible-xs" role="button">
+    <img src="images/gotop_bg.png">
+  </a>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- partial -->
+  <script  src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+/*== 關於我們 ==*/
+.index-about{
+    width: 100%;
+    background: url(../images/index-about-bg.png) no-repeat top;
+    padding-bottom: 225px
+  }
+
+  .index-about,
+  .index-about-textWrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .index-about-textWrap {
+      width: 55%;
+      align-items: center;
+      padding: 1rem 2rem;
+      margin-top: 13rem;
+  }
+
+  .index-about-textWrap .text-wrap{ margin: 7rem 0 3rem }
+  
+  .index-about .index-about-textWrap .text-wrap{ max-width: 500px; }
